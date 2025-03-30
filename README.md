@@ -6,6 +6,15 @@
 
 [VG manual page](https://github.com/vgteam/vg/wiki/vg-manpage)
 
+To build the container
+```
+singularity pull docker://docker.io/jonahcullen/agbt2025:latest
+```
+or download a pre-build singularity image
+```
+wget https://s3.msi.umn.edu/agbt2025/agbt2025_latest.sif
+```
+
 ### vg toolkit
 The two graph files we will use are vg and gfa formats. You can use `vg convert` to convert between formats.
 ```bash title="Converting files"
